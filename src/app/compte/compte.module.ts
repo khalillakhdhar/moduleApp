@@ -5,6 +5,7 @@ import { CompteRoutingModule } from './compte-routing.module';
 import { CompteComponent } from './compte.component';
 import { AuthComponent } from './auth/auth.component';
 import { InscriptionComponent } from './inscription/inscription.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { InscriptionComponent } from './inscription/inscription.component';
   ],
   imports: [
     CommonModule,
-    CompteRoutingModule
+    CompteRoutingModule,
+    FormsModule
   ]
 })
 export class CompteModule { }
